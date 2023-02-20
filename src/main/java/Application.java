@@ -9,9 +9,9 @@ public class Application {
      */
     public static void main(String[] args) {
         Lab eo = new Lab();
-        System.out.println("According to the challenge code, 3 is (even/odd):");
-        System.out.println(eo.decide(21));
-        System.out.println("According to the challenge code, 4 is (even/odd):");
-        System.out.println(eo.decide(20));
+     //   System.out.println("According to the challenge code, 3 is (even/odd):");
+     //   System.out.println(eo.decide(21));
+     //   System.out.println("According to the challenge code, 4 is (even/odd):");
+        System.out.println(eo.decide(-5));
     }
 }
