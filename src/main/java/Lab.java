@@ -14,8 +14,10 @@ public class Lab {
      * @return a String "Even" if n is even, and "Odd" of in is odd. The test cases are case-sensitive.
      */
     public String decide(int n){
+        
         int temp=Math.abs(n);
         
+
         if(temp%2==1) return "Odd";
 
         return "Even";
